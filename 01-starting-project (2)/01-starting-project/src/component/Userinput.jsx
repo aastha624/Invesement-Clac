@@ -8,7 +8,7 @@ export default function Userinput({onChange , userInput}) {
 
     
     return <section id="user-input">
-        <div classname="input-group">
+        <div className="input-group">
             <p>
                 <label>Initial Investment</label>
                 <input type="number" required
@@ -25,7 +25,7 @@ export default function Userinput({onChange , userInput}) {
               
             </p>
         </div>
-        <div classname="input-group">
+        <div className="input-group">
             <p>
                 <label>Expected Return</label>
                 <input type="number" required

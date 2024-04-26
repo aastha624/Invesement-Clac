@@ -16,7 +16,7 @@ function handlechange(inputindentifier, newvalue) {
   setuserInput(prevuserInput => {
       return {
           ...prevuserInput,
-          [inputindentifier]: newvalue
+          [inputindentifier]: +newvalue,
       };
   })
 }
@@ -32,4 +32,4 @@ function handlechange(inputindentifier, newvalue) {
   )
 }
 
-export default App
+export default App;
